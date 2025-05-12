@@ -1,4 +1,5 @@
 //print 1 to 10 numbers with 1 sec gap each
+//setTimeout
 
 //solution 1: using let
 function solution1(){

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#display{
+    font-size: 35px;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#main > * {
+    margin:2px;
+    padding: 2px;
+}
+
+.buttons > * , #reset{
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(232, 152, 192);
+}
+
+#reset{
+    width: 50px;
+}
+
+input {
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
